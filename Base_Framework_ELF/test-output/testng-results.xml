@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18931" started-at="2022-06-20T05:45:08Z" finished-at="2022-06-20T05:45:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18931" started-at="2022-06-20T05:45:08Z" finished-at="2022-06-20T05:45:26Z">
+      <class name="test_Scripts.TScript_07">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:test_Scripts.TScript_07@6500df86]" name="beforeSuit" is-config="true" duration-ms="348" started-at="2022-06-20T11:15:07Z" finished-at="2022-06-20T11:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:test_Scripts.TScript_07@6500df86]" name="openApplication" is-config="true" duration-ms="9783" started-at="2022-06-20T11:15:08Z" finished-at="2022-06-20T11:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testScript1(java.lang.String, java.lang.String)[pri:0, instance:test_Scripts.TScript_07@6500df86]" name="testScript1" duration-ms="6214" started-at="2022-06-20T11:15:19Z" data-provider="testdata" finished-at="2022-06-20T11:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[maha@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript1 -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:test_Scripts.TScript_07@6500df86]" name="CloseApp" is-config="true" duration-ms="989" started-at="2022-06-20T11:15:25Z" finished-at="2022-06-20T11:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test_Scripts.TScript_07@6500df86]" name="afterSuite" is-config="true" duration-ms="495" started-at="2022-06-20T11:15:26Z" finished-at="2022-06-20T11:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test_Scripts.TScript_07 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
